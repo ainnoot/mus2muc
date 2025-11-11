@@ -1,9 +1,9 @@
 default: install
 
 clean:
-	make -C wasp clean
+	make clean -C wasp
 	rm -rf wasp/build/release
-	make -C aaltaf clean
+	make clean -C aaltaf
 	rm -f bin/*
 
 create_bin_folder:
