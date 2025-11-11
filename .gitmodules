@@ -1,0 +1,6 @@
+[submodule "wasp"]
+	path = wasp
+	url = https://github.com/alviano/wasp.git
+[submodule "aaltaf"]
+	path = aaltaf
+	url = https://github.com/lijwen2748/aaltaf.git

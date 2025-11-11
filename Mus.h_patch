@@ -1,0 +1,21 @@
+--- wasp/src/Mus.h	2024-08-06 16:57:46.104476224 +0200
++++ Muc.h_patch	2024-08-06 16:54:00.545384912 +0200
+@@ -9,6 +9,8 @@
+ #include <iostream>
+ #include "util/VariableNames.h"
+ #include "ReasoningPredicateMinimization.h"
++#include <chrono>
++
+ using namespace std;
+ class MUS {
+ 
+@@ -43,6 +45,8 @@
+         vector<Var> candidates;
+         unsigned int numberOfMUSes;
+         ReasoningPredicateMinimization* reasoning;
++        static std::chrono::time_point<std::chrono::system_clock> start;
++        
+ };
+ 
+ #endif
+\ No newline at end of file
