@@ -1,3 +1,5 @@
+default: install
+
 clean:
 	make -C wasp clean
 	rm -rf wasp/build/release
